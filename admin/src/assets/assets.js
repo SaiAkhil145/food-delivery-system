@@ -14,4 +14,6 @@ export const assets ={
     parcel_icon
 }
 
+export default assets;
+
 export const url = 'http://localhost:4000'
