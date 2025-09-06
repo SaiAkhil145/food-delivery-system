@@ -36,7 +36,7 @@ app.use('/api/order/',orderRouter)
 app.get("/",(req,res)=>{
     res.send("api working")
 });
-app.listen(port,()=>{
+app.listen(port,"0.0.0.0",()=>{
     console.log(`server started on http://localhost:${port}`)
 })
 
